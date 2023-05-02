@@ -2,4 +2,4 @@
 
 A countdown timer for The Legend of Zelda: Tears of the Kingdom, releasing May 12th, 2023.
 
-Humbly hosted on GitHub Pages [https://kylelangille.github.io/totk-countdown/]👈
+Humbly hosted on GitHub Pages https://kylelangille.github.io/totk-countdown/👈
