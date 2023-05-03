@@ -3,6 +3,12 @@
   src: url("assets/fonts/The\ Wild\ Breath\ of\ Zelda.otf") format("opentype");
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "The Breath of Zelda";
   background-image: url("./assets/images/background.jpg");
@@ -18,7 +24,7 @@ body {
 
 .countdown-display {
   display: flex;
-  gap: 2.6rem;
+  gap: 4rem;
   justify-content: center;
   font-size: 3rem;
   margin-top: 8rem;
@@ -28,6 +34,7 @@ body {
     1px 1px 0 #000;
   background: rgba(236, 236, 236, 0.2);
   padding: 20px 0;
+  max-width: 100%;
 }
 
 .countdown-display > div {
