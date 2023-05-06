@@ -14,6 +14,7 @@ body {
   background-image: url("./assets/images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .img {
@@ -41,4 +42,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 800px) {
+  .countdown-display {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 630px) {
+  .countdown-display {
+    font-size: 1.8rem;
+  }
 }
